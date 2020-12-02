@@ -1,0 +1,17 @@
+server:
+  port: 9001
+
+# spring:
+#  datasource:
+#    data-username: root
+#    data-password: password
+#    url: jdbc:mysql://localhost:3306/account_management?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+
+spring:
+  application:
+    name: DEPARTMENT-SERVICE
+  zipkin:
+    base-url: http://localhost:9411/
